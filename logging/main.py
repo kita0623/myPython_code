@@ -5,6 +5,10 @@
 # CRITICAL : プログラムの重大なエラー  【使用例】セキュリティ侵害、サーバー障害など
 ### 開発中はDEBUG、運用中はINFOにするのが一般的 ###
 
+# logger.debug("### __init__ ###")
+# logger.debug('index - {} - {}'.format(type(index), index))
+
+
 from logging import getLogger, Formatter, FileHandler, DEBUG, INFO
 
 formatter = Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
