@@ -5,3 +5,6 @@
 - .envに下記を記載  
 USERNAME="HOGE"  
 PASSWORD="FUGA"  
+
+- .envをターミナル実行して環境変数を追加する  
+source ./set_env.sh  
